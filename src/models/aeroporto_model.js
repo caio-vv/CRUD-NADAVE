@@ -9,7 +9,11 @@ const aeroportoSchema = new Schema({
     },
     cep: {
         type: Number,
-        required: true
+        required: false
+    },
+    endereco: {
+        type: Object,
+        required: false
     }
 })
 
